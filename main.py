@@ -13,7 +13,7 @@ class PassGen:
     def generate_wordlist(self, base_password, option=10):
         passwords = []
 
-        #generate lowercase + uppercase
+        # generate lowercase + uppercase
         for i in range(2 ** len(base_password)):
             password = ""
             for j in range(len(base_password)):
@@ -23,12 +23,12 @@ class PassGen:
                     password += base_password[j].lower()
             passwords.append(password)
 
-        #generate dates on the sides of the password
+        # generate dates on the sides of the password
         for year in range(1950, 2051):
             passwords.append(str(year) + base_password)
             passwords.append(base_password + str(year))
 
-        #generate random letters & numbers with the password
+        # generate random letters & numbers with the password
         for _ in range(option):
             password = base_password
             for _ in range(random.randint(1, 5)):
