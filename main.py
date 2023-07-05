@@ -99,6 +99,7 @@ def main():
     print("Options: 1 (100,000), 2 (1,000,000), 3 (3,000,000), 4 (5,000,000), 5 (10,000,000)")
     print("/h - Show the help menu")
     print("/exit - Exit the program")
+    print("------------------")
 
     while True:
         command = input("Enter a command: ").split()
@@ -164,6 +165,7 @@ def main():
             print("Options: 1 (100,000), 2 (1,000,000), 3 (3,000,000), 4 (5,000,000), 5 (10,000,000)")
             print("/h - Show the help menu")
             print("/exit - Exit the program")
+            print("------------------")
 
         elif command[0] == "/exit":
             break
