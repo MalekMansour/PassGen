@@ -1,3 +1,4 @@
+# PassGen 
 PassGen is a simple Password Generator that uses the random module to generate either one password or a list of passwords. PassGen also has the option to hash passwords, display common admin passwords, and make huge lists in text files with randomly generated passwords using the /compass command.
 
 Installation: 
