@@ -2,7 +2,7 @@ PassGen is a simple Password Generator that uses the random module to generate e
 
 Installation: 
 ```
-git clone https://github.com/Gotchcover/PassGen.git 
+git clone https://github.com/MalekMansour/PassGen
 cd PassGen
 python main.py -h
 ```
